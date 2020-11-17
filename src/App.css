@@ -1,11 +1,14 @@
 .App {
   width: 100%;
+  padding: 0 2rem;
   height: 100vh;
   display: grid;
   place-items: center;
   background: #f5f5f5;
 }
-
+ * {
+    box-sizing: border-box;
+ }
 .App .container {
   padding: 4rem;
   background: #fff;
@@ -15,6 +18,7 @@
   color: #222;
 }
 
-.container > h1 {
-    margin-bottom: 0.25rem;
+.container > * {
+    line-height: 1.5;
+    /*margin-bottom: 0.25rem;*/
 }
